@@ -1,0 +1,74 @@
+String
+=======
+-String is a predefined class present in java.lang package
+-String is defined as collection of charater enclosed within the " ".                    
+-Default value of string is null.                                                       
+-String is index based----(position)  
+-Index Starts with 0 and ends with length-1.
+                                                                
+"java @1"-----------------Length=7---------Index=0 to 6          
+
+0 1 2 3 4 5 6                                   
+j a v a   @ 1 
+
+length=last index +1 ------>length=6+1=7
+
+lastindex=length-1 ------->lastindex=7-1=6
+
+
+
+Methods:
+=======
+1.chartAt(index)-->It is used to find the charater present in the particular index value
+
+2.indexOf(value)-->It is used to find the index of particular value
+
+3.toUpperCase()--->To convert String to its Upper case 
+
+4.toLowerCase()--->To convert String to its Lower case
+
+5.is Empty()------>To check wheather the String is empty or not 
+
+6.startsWith(value)--->To check wheather the String starts with the particular value
+
+7.endsWith(value)----->To check wheather the String ends with the particular value
+
+8.lastIndexOf(value)-->To find the last index of the particular value
+
+9.contains(value)-->To check weather the String contains particular value or not
+
+10.equals()-------->To compare 2 Strings and (it is case sensitive)
+
+11.equalsIgnoreCase()---->To compare 2 Strings and (it is not case sensitive) 
+
+12.compareTo()----->To compare 2 Strings based on ASCII value--last
+
+13.length()----->To find the length of the given String----(1)
+
+14.replace(old,new)--->To replace one char or word into another char or word.
+
+15.replaceAll(old,new)-->To replace all the occurence of one char or word into another char or word
+
+16.trim()---->To remove space present before and after the words
+
+17.subString(start Index)--->To start with particular index value
+
+18.subString(start Index,end Index)--->To start with and ends with the particular index value.
+
+19.split()-->To split the String based on the argument
+
+
+
+
+ASCII VALUE ---- American Standard Code for Information Interchange
+------------
+A-Z ----->65 to 90 ----67    67-99=-32
+
+a-z------>97 to 122 ---99      
+
+space--->32
+
+0 to 9--> 48 to 57
+
+
+
