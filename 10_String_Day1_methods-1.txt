@@ -20,7 +20,12 @@ lastindex=length-1 ------->lastindex=7-1=6
 Methods:
 =======
 1.chartAt(index)-->It is used to find the charater present in the particular index value
-
+ String c="  Common Operating Machine Purposely Used for Technological and Educational Research";
+    	 String c1="computer";
+    	 
+    	 //charAt
+    	 char charAt = c.charAt(9);
+    	  System.out.println(charAt);
 2.indexOf(value)-->It is used to find the index of particular value
 
 3.toUpperCase()--->To convert String to its Upper case 
